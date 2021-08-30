@@ -1,8 +1,8 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-
 import LandingPage from "../views/LandingPage/LandingPage.vue";
 import BucketListPage from "../views/BucketListPage/BucketListPage.vue";
+
+import Vue from "vue";
+import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
@@ -21,3 +21,5 @@ export const router = new VueRouter({
     }
   ]
 });
+
+export default router;

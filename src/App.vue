@@ -6,15 +6,8 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import LandingPage from "./views/LandingPage/LandingPage.vue";
-import BucketListPage from "./views/BucketListPage/BucketListPage.vue";
 
-@Component({
-  components: {
-    LandingPage,
-    BucketListPage
-  }
-})
+@Component({})
 export default class App extends Vue {}
 </script>
 
