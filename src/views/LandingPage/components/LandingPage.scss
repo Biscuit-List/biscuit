@@ -1,0 +1,41 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 4em;
+  font-weight: 900;
+  color: #473417;
+
+  margin-bottom: 15vh;
+}
+
+.img-container {
+  width: 450px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 10vh;
+}
+
+#go-to-bucket-list-btn {
+  background-color: #fff6e3;
+  color: #87734b;
+  font-size: 1.4em;
+
+  border: none;
+  border-radius: 15px;
+  width: 28vh;
+  height: 7vh;
+
+  cursor: pointer;
+  :hover {
+    background-color: #87734b;
+    color: #fff6e3;
+    transition: 1s;
+  }
+}
